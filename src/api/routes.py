@@ -16,3 +16,13 @@ def handle_hello():
     }
 
     return jsonify(response_body), 200
+
+@api.route('/signup', methods=['POST', 'GET'])
+def identify_user():
+    
+
+
+@api.route('/login', methods=['POST', 'GET'])
+
+@api.route('/private', methods=['POST', 'GET'])
+    
